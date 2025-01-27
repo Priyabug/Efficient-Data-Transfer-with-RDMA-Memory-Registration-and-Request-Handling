@@ -18,7 +18,7 @@ The implementation of efficient RDMA-based data transfer involves two critical p
 
 <h2>Program walk-through:</h2>
  <section>
-        <h1>RDMA Memory Registration</h1>
+        <h3>RDMA Memory Registration</h3>
         <p>
             Memory registration is a prerequisite for RDMA operations, as RDMA devices require memory to be registered to ensure direct access. This involves:
         </p>
@@ -35,7 +35,7 @@ The implementation of efficient RDMA-based data transfer involves two critical p
         </ul>
     </section>
     <section>
-        <h1>Request Handling</h1>
+        <h3>Request Handling</h3>
         <p>
             Efficient request handling is crucial for leveraging RDMA's potential in real-time and large-scale data transfer. This includes:
         </p>
